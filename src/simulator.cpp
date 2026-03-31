@@ -8,7 +8,6 @@ bool isValidRegister(string reg) {
     if(reg == "$zero") return true;
 
     if(reg.length() == 3 && reg[0] == '$') {
-
         char type = reg[1];
         char num = reg[2];
 
